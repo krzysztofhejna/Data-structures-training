@@ -1,0 +1,22 @@
+$background-color-main: #997;
+$background-color-header: blue;
+$background-color-extra: red;
+
+[id^="box"] {
+    opacity: 0.7;
+    background-color: $background-color-main;
+}
+
+.important {
+    opacity: 1;
+}
+
+.highlighted {
+    background-color: $background-color-extra;
+}
+
+.special-header {
+    h2 {
+        background-color: $background-color-header;
+    }
+}
